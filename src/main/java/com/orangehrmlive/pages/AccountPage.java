@@ -14,10 +14,6 @@ public class AccountPage extends Utility {
 
     private static final Logger log = LogManager.getLogger(AccountPage.class.getName());
 
-    //list of elements and their locations
-
-    // By welcomeAdmin = By.cssSelector("a.panelTrigger");
-    //By logoutLink = By.xpath("//a[contains(text(),'Logout')]");
 
     @FindBy(css = "a.panelTrigger")
     WebElement _welcomeAdmin;
